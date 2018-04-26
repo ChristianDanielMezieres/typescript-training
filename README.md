@@ -25,7 +25,7 @@ that, use [focus](http://jasmine.github.io/2.6/focused_specs.html)
 and [exclude](https://jasmine.github.io/2.6/introduction.html#section-Disabling_Suites):
 
  * replace `it()` with `fit()`/`xit()` **and/or**
- * replace `describe()` tiwh `fdescribe()`/`xdescribe()`
+ * replace `describe()` with `fdescribe()`/`xdescribe()`
 
 Important thing, however, is **not to push** these temporary changes (`fit`,
 `xit`, `fdescribe`, `xdescribe`) to the repository.
